@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api/v1/ai',
+  baseURL: 'https://ai-aggregator-backend-jd0a.onrender.com/api/v1/ai',
   headers: {
     'Content-Type': 'application/json',
   },
